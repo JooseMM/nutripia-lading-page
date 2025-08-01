@@ -1,0 +1,44 @@
+/* Entry: fade-in */
+.fade-in {
+  animation: fadeIn 300ms ease-out forwards;
+}
+
+/* Exit: fade-out */
+.fade-out {
+  animation: fadeOut 300ms ease-out forwards;
+}
+
+.spin {
+  animation: spin 300ms ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(1rem);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}

@@ -1,11 +1,4 @@
-body {
-  font-family: "Montserrat", sans-serif;
-  color: #313131;
-  padding-inline: 5dvw;
-}
-
 /* Navbar */
-
 .navbar {
   padding-block: 1rem;
   position: relative;

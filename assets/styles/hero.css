@@ -1,0 +1,9 @@
+.hero {
+  display: flex;
+}
+.hero div:first-of-type {
+   flex: 0.5;
+}
+.hero div:last-of-type {
+  flex: 1;
+}

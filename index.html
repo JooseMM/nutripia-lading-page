@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nutripia | Nutricionista</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="animations.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/styles/fonts.css" />
+    <link rel="stylesheet" href="assets/styles/reset.css" />
+    <link rel="stylesheet" href="assets/styles/animation.css" />
+    <link rel="stylesheet" href="assets/styles/navbar.css" />
+    <link rel="stylesheet" href="assets/styles/hero.css" />
   </head>
   <body>
     <header class="navbar">
       <a href="" class="navbar__logo">
-       <span>Nutri</span>
-       <span>Pia</span>
+        <span>Nutri</span>
+        <span>Pia</span>
       </a>
       <div id="navigationMenu" class="navbar__navigation">
         <ul class="navbar__navigation__content">
@@ -22,13 +24,21 @@
         </ul>
         <ul class="navbar__navigation__auth">
           <li><a href="login.html">Iniciar Sesion</a></li>
-          <li><a href="register.html" class="button--primary">Registrarse</a></li>
+          <li>
+            <a href="register.html" class="button--primary">Registrarse</a>
+          </li>
         </ul>
       </div>
       <button id="menuToggler" class="navbar__navigation__toggler">
         <img id="menuTogglerIcon" src="assets/icons/hamburguer.png" />
       </button>
     </header>
-    <script src="script.js"></script>
+    <main>
+      <div class="hero">
+        <div class="hero__description">Description</div>
+        <div class="hero__image">Image</div>
+      </div>
+    </main>
+    <script src="assets/script.js"></script>
   </body>
 </html>
