@@ -157,3 +157,17 @@ body {
   color: #313131;
   padding-inline: 5dvw;
 }
+
+b {
+ font-weight: 900;
+}
+
+img {
+ display: block;
+}
+
+@media (min-width: 65rem) {
+ body {
+  padding-inline:0;
+ }
+}
