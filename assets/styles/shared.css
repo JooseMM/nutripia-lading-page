@@ -16,3 +16,18 @@
   opacity: 0.5;
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.title__icon {
+  width: 1.5rem;
+}
+
+.title h3 {
+  margin-inline: 1rem;
+}

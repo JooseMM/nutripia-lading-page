@@ -1,6 +1,7 @@
 /* Navbar */
 .navbar {
   padding-block: 1rem;
+  padding-inline: 5dvw;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -57,7 +58,7 @@
   .navbar {
     padding-block: 1.2rem;
     padding-inline: 10dvw;
-    border-bottom: 1px solid #DAE2DF;
+    border-bottom: 1px solid #dae2df;
   }
   .navbar__navigation {
     flex: 1;

@@ -155,7 +155,6 @@ button {
 body {
   font-family: "Montserrat", sans-serif;
   color: #313131;
-  padding-inline: 5dvw;
 }
 
 b {
@@ -166,8 +165,3 @@ img {
  display: block;
 }
 
-@media (min-width: 65rem) {
- body {
-  padding-inline:0;
- }
-}
