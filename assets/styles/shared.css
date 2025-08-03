@@ -1,19 +1,32 @@
 /* Button */
-.button--primary {
+.button {
   display: block;
-  background-color: #8878a5;
   border-radius: 10rem;
-  border: 1px solid #5f5373;
   padding: 0.8rem 1.8rem;
   letter-spacing: 0.1rem;
   font-size: 1rem;
   font-weight: 700;
-  color: white;
   transition: 150ms ease-in;
 }
 
-.button--primary:hover {
+.button--primary {
+  background-color: #8878a5;
+  border: 1px solid #5f5373;
+  color: white;
+}
+
+.button--secundary {
+  background-color: white;
+  border: 1px solid #5f5373;
+  color: #5f5373;
+}
+
+.button:hover {
   opacity: 0.5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #dae2df;
 }
 
 .title {
@@ -32,8 +45,4 @@
 
 .title h2 {
   margin-inline: 1rem;
-}
-
-.border-bottom {
-  border-bottom: 1px solid #dae2df;
 }

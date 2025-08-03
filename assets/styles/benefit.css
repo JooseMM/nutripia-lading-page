@@ -1,5 +1,6 @@
 .benefit {
-  padding: 3rem 10dvw;
+  padding-inline: 10dvw;
+  padding-block: 3rem 5rem;
 }
 
 .benefit__title {

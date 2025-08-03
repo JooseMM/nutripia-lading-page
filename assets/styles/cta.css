@@ -1,0 +1,19 @@
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8878a5;
+  color: white;
+  padding-block: 3rem;
+  gap: 1.5rem;
+}
+
+.cta h2 {
+  font-size: clamp(1.7rem, 2vw + 1vh, 2.5rem);
+  font-weight: 900;
+}
+
+.cta .button {
+  padding-inline: 2rem;
+}

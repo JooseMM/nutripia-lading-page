@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/styles/hero.css" />
     <link rel="stylesheet" href="assets/styles/about.css" />
     <link rel="stylesheet" href="assets/styles/benefit.css" />
+    <link rel="stylesheet" href="assets/styles/pricing.css" />
+    <link rel="stylesheet" href="assets/styles/cta.css" />
   </head>
   <body>
     <header class="navbar">
@@ -29,7 +31,9 @@
         <ul class="navbar__navigation__auth">
           <li><a href="login.html">Iniciar Sesion</a></li>
           <li>
-            <a href="register.html" class="button--primary">Registrarse</a>
+            <a href="register.html" class="button button--primary"
+              >Registrarse</a
+            >
           </li>
         </ul>
       </div>
@@ -49,7 +53,7 @@
             Optimiza tu bienestar con mi guía nutricional. Regístrate y agenda
             tu consulta para iniciar tu camino hacia una vida más saludable.
           </p>
-          <a href="/" class="button--primary">Reserva tu Cita</a>
+          <a href="/" class="button button--primary">Reserva tu Cita</a>
         </div>
       </section>
       <!-- About me -->
@@ -130,14 +134,80 @@
           </li>
         </ul>
       </section>
-      <section>
-        <div class="title benefit__title">
+      <!-- Pricing Section -->
+      <section class="pricing">
+        <div class="title pricing__title">
           <img src="assets/icons/apple-icon.svg" />
           <h2>Planes</h2>
           <img src="assets/icons/banana-icon.svg" />
         </div>
+        <ul class="pricing__list">
+          <!-- Pricing Minimun -->
+          <li class="pricing__box">
+            <span class="pricing__box__title">Minimo</span>
+            <h4>$20.000</h4>
+            <span class="pricing__box__sub_title">Pago unico</span>
+            <ul>
+              <li>
+                <img src="assets/icons/feature-out.svg" />
+                <span>Seguimiento</span>
+              </li>
+              <li>
+                <img src="assets/icons/feature-in.svg" />
+                <span>Diagnostico</span>
+              </li>
+              <li>
+                <img src="assets/icons/feature-in.svg" />
+                <span>Plan Nutricional</span>
+              </li>
+              <li>
+                <img src="assets/icons/feature-out.svg" />
+                <span>Personalizacion</span>
+              </li>
+              <li>
+                <img src="assets/icons/feature-out.svg" />
+                <span>Antropometria</span>
+              </li>
+            </ul>
+            <a class="button button--primary" href="">Empieza ya</a>
+          </li>
+          <!-- Pricing Full -->
+          <li class="pricing__box pricing__box--full">
+            <span class="pricing__box__title">Full</span>
+            <h4>$35.000</h4>
+            <span class="pricing__box__sub_title">Cada mes</span>
+            <ul>
+              <li>
+                <img src="assets/icons/feature-in.svg" />
+                <span>Seguimiento</span>
+              </li>
+              <li>
+                <img src="assets/icons/feature-in.svg" />
+                <span>Diagnostico</span>
+              </li>
+              <li>
+                <img src="assets/icons/feature-in.svg" />
+                <span>Plan Nutricional</span>
+              </li>
+              <li>
+                <img src="assets/icons/feature-in.svg" />
+                <span>Personalizacion</span>
+              </li>
+              <li>
+                <img src="assets/icons/feature-in.svg" />
+                <span>Antropometria</span>
+              </li>
+            </ul>
+            <a class="button button--secundary" href="">Empieza ya</a>
+          </li>
+        </ul>
+      </section>
+      <section class="cta">
+        <h2>¡Transforma tu salud hoy!</h2>
+        <a class="button button--secundary">Registrate Ya</a>
       </section>
     </main>
+    <footer></footer>
     <script src="assets/script.js"></script>
   </body>
 </html>
