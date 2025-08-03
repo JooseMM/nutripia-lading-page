@@ -39,13 +39,13 @@ function updateButtonIcon(hide) {
   if (hide) {
     spin();
     setTimeout(
-      () => (menuTogglerIcon.src = "assets/icons/hamburguer.png"),
+      () => (menuTogglerIcon.src = "assets/icons/hamburguer.svg"),
       ANIMATION_TIME * 0.8,
     );
   } else {
     spin();
     setTimeout(
-      () => (menuTogglerIcon.src = "assets/icons/close-menu.png"),
+      () => (menuTogglerIcon.src = "assets/icons/close-menu.svg"),
       ANIMATION_TIME * 0.5,
     );
   }

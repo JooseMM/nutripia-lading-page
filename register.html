@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nutripia | Nutricionista</title>
+    <link rel="stylesheet" href="assets/styles/fonts.css" />
+    <link rel="stylesheet" href="assets/styles/reset.css" />
+    <link rel="stylesheet" href="assets/styles/shared.css" />
+    <link rel="stylesheet" href="assets/styles/animation.css" />
+    <link rel="stylesheet" href="assets/styles/navbar.css" />
+    <link rel="stylesheet" href="assets/styles/register.css" />
+    <link rel="stylesheet" href="assets/styles/footer.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="index.html" class="navbar__logo">
+        <span>Nutri</span>
+        <span>Pia</span>
+      </a>
+      <div id="navigationMenu" class="navbar__navigation">
+        <ul class="navbar__navigation__content">
+          <li><a href="index.html#hero">Inicio</a></li>
+          <li><a href="index.html#pricing">Planes</a></li>
+          <li><a href="index.html#benefit">Beneficios</a></li>
+          <li><a href="index.html#about">Sobre Mi</a></li>
+        </ul>
+        <ul class="navbar__navigation__auth">
+          <li><a href="login.html">Iniciar Sesion</a></li>
+          <li>
+            <a href="register.html" class="button button--primary"
+              >Registrarse</a
+            >
+          </li>
+        </ul>
+      </div>
+      <button id="menuToggler" class="navbar__navigation__toggler">
+        <img id="menuTogglerIcon" src="assets/icons/hamburguer.svg" />
+      </button>
+    </header>
+    <main class="register">
+      <div class="register__image">
+        <img src="assets/images/register.png" />
+      </div>
+      <form>
+        <div>
+          <label for="name">Nombre y Apellido</label>
+          <input id="name" placeholder="Ejem: Pia Ulloa"/>
+        </div>
+      </form>
+    </main>
+    <footer class="footer">
+      <ul class="footer__logo">
+        <li>
+          <a href="">NutriPia</a>
+        </li>
+        <li>
+          <span>© Copyright 2025</span>
+        </li>
+      </ul>
+      <ul class="footer__navigation">
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Sobre Mi</a></li>
+        <li><a href="">Planes</a></li>
+        <li><a href="">Beneficios</a></li>
+      </ul>
+      <ul class="footer__contact">
+        <li>
+          <a href="">
+            <img src="assets/icons/whatsapp-icon.svg" />
+            <span>+ 56 9 8932 3392</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="assets/icons/instagram-icon.svg" />
+            <span>@_nutri_pia</span></a
+          >
+        </li>
+        <li>
+          <a href="">
+            <img src="assets/icons/mail-icon.svg" />
+            <span>pia.nutricionista@gmail.com </span>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="assets/script.js"></script>
+  </body>
+</html>

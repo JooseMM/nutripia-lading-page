@@ -14,16 +14,17 @@
     <link rel="stylesheet" href="assets/styles/benefit.css" />
     <link rel="stylesheet" href="assets/styles/pricing.css" />
     <link rel="stylesheet" href="assets/styles/cta.css" />
+    <link rel="stylesheet" href="assets/styles/footer.css" />
   </head>
   <body>
     <header class="navbar">
-      <a href="" class="navbar__logo">
+      <a href="index.html" class="navbar__logo">
         <span>Nutri</span>
         <span>Pia</span>
       </a>
       <div id="navigationMenu" class="navbar__navigation">
         <ul class="navbar__navigation__content">
-          <li><a href="">Inicio</a></li>
+          <li><a href="#hero">Inicio</a></li>
           <li><a href="#pricing">Planes</a></li>
           <li><a href="#benefit">Beneficios</a></li>
           <li><a href="#about">Sobre Mi</a></li>
@@ -43,7 +44,7 @@
     </header>
     <main>
       <!-- Hero Section -->
-      <section class="hero border-bottom">
+      <section id="hero" class="hero border-bottom">
         <div class="hero__image">
           <img src="assets/images/mobile-hero.png" />
         </div>
@@ -57,7 +58,7 @@
         </div>
       </section>
       <!-- About me -->
-      <section class="about border-bottom">
+      <section id="about" class="about border-bottom">
         <div class="about__description">
           <div class="title about__title">
             <img src="assets/icons/apple-icon.svg" />
@@ -83,7 +84,7 @@
         </div>
       </section>
       <!-- Benefit -->
-      <section class="benefit">
+      <section id="benefit" class="benefit">
         <div class="title benefit__title">
           <img src="assets/icons/apple-icon.svg" />
           <h2>¡Conmigo Tendras!</h2>
@@ -135,7 +136,7 @@
         </ul>
       </section>
       <!-- Pricing Section -->
-      <section class="pricing">
+      <section id="pricing" class="pricing">
         <div class="title pricing__title">
           <img src="assets/icons/apple-icon.svg" />
           <h2>Planes</h2>
@@ -144,13 +145,21 @@
         <ul class="pricing__list">
           <!-- Pricing Minimun -->
           <li class="pricing__box">
-            <span class="pricing__box__title">Minimo</span>
+            <span class="pricing__box__title">Teleconsulta</span>
             <h4>$20.000</h4>
             <span class="pricing__box__sub_title">Pago unico</span>
             <ul>
               <li>
                 <img src="assets/icons/feature-out.svg" />
-                <span>Seguimiento</span>
+                <span>2 consultas al mes</span>
+              </li>
+              <li>
+                <img src="assets/icons/feature-out.svg" />
+                <span>Antropometria</span>
+              </li>
+              <li>
+                <img src="assets/icons/feature-in.svg" />
+                <span>Plan Nutricional</span>
               </li>
               <li>
                 <img src="assets/icons/feature-in.svg" />
@@ -158,32 +167,24 @@
               </li>
               <li>
                 <img src="assets/icons/feature-in.svg" />
-                <span>Plan Nutricional</span>
-              </li>
-              <li>
-                <img src="assets/icons/feature-out.svg" />
                 <span>Personalizacion</span>
-              </li>
-              <li>
-                <img src="assets/icons/feature-out.svg" />
-                <span>Antropometria</span>
               </li>
             </ul>
             <a class="button button--primary" href="">Empieza ya</a>
           </li>
           <!-- Pricing Full -->
           <li class="pricing__box pricing__box--full">
-            <span class="pricing__box__title">Full</span>
+            <span class="pricing__box__title">Seguimiento</span>
             <h4>$35.000</h4>
             <span class="pricing__box__sub_title">Cada mes</span>
             <ul>
               <li>
                 <img src="assets/icons/feature-in.svg" />
-                <span>Seguimiento</span>
+                <span>2 consultas al mes</span>
               </li>
               <li>
                 <img src="assets/icons/feature-in.svg" />
-                <span>Diagnostico</span>
+                <span>Antropometria</span>
               </li>
               <li>
                 <img src="assets/icons/feature-in.svg" />
@@ -191,11 +192,11 @@
               </li>
               <li>
                 <img src="assets/icons/feature-in.svg" />
-                <span>Personalizacion</span>
+                <span>Diagnostico</span>
               </li>
               <li>
                 <img src="assets/icons/feature-in.svg" />
-                <span>Antropometria</span>
+                <span>Personalizacion</span>
               </li>
             </ul>
             <a class="button button--secundary" href="">Empieza ya</a>
@@ -207,7 +208,42 @@
         <a class="button button--secundary">Registrate Ya</a>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <ul class="footer__logo">
+        <li>
+          <a href="">NutriPia</a>
+        </li>
+        <li>
+          <span>© Copyright 2025</span>
+        </li>
+      </ul>
+      <ul class="footer__navigation">
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Sobre Mi</a></li>
+        <li><a href="">Planes</a></li>
+        <li><a href="">Beneficios</a></li>
+      </ul>
+      <ul class="footer__contact">
+        <li>
+          <a href="">
+            <img src="assets/icons/whatsapp-icon.svg" />
+            <span>+ 56 9 8932 3392</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="assets/icons/instagram-icon.svg" />
+            <span>@_nutri_pia</span></a
+          >
+        </li>
+        <li>
+          <a href="">
+            <img src="assets/icons/mail-icon.svg" />
+            <span>pia.nutricionista@gmail.com </span>
+          </a>
+        </li>
+      </ul>
+    </footer>
     <script src="assets/script.js"></script>
   </body>
 </html>
