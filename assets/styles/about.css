@@ -1,0 +1,51 @@
+.about {
+  padding-inline: 10dvw;
+  padding-top: 2.5rem;
+  text-align: center;
+}
+
+.about p {
+  font-weight: 500;
+}
+
+.about p:not(:last-of-type) {
+  margin-bottom: 1.5rem;
+}
+
+.about__description {
+  margin-inline: auto;
+  max-width: 40rem;
+}
+
+.about__image,
+.about__image img {
+  margin-inline: auto;
+}
+
+.about__image img {
+  width: clamp(18rem, 50vw, 22rem);
+}
+
+.about__title {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 65rem) {
+  .about {
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+  }
+  .about__image {
+    order: 1;
+    margin-right: 5rem;
+    margin-top: clamp(0rem, calc(5rem - 5vw), 5rem);
+  }
+  .about__description {
+    text-align: left;
+    order: 2;
+  }
+  .about__title {
+    justify-content: start;
+  }
+}

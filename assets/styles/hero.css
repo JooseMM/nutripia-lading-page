@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid #dae2df;
   padding-bottom: 3rem;
 }
 
@@ -24,9 +23,7 @@
 .hero__description p {
   margin-bottom: 1.2rem;
   font-weight: 400;
-  font-size: clamp(1rem, 3vw + 1vh, 1.1rem);
-  letter-spacing: 0.5px;
-  line-height: 1.6rem;
+  font-size: clamp(1rem, 2vw + 1vh, 1.1rem);
   max-width: clamp(30ch, 50vw, 40ch);
 }
 

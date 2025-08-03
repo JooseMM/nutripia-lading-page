@@ -158,10 +158,14 @@ body {
 }
 
 b {
- font-weight: 900;
+  font-weight: 900;
 }
 
 img {
- display: block;
+  display: block;
 }
 
+p {
+  letter-spacing: 0.5px;
+  line-height: 1.6rem;
+}
