@@ -1,12 +1,37 @@
 /* Button */
 .button {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 10rem;
   padding: 0.8rem 1.8rem;
   letter-spacing: 0.1rem;
   font-size: 1rem;
   font-weight: 700;
   transition: 150ms ease-in;
+  cursor: pointer;
+}
+
+.button--contact img {
+  width: 1.2rem;
+}
+
+.button--contact {
+  background-color: #8878a5;
+  border: 1px solid #5f5373;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  gap: 0.7rem;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.button--contact:hover {
+  opacity: 1;
+  background-color: #7fa59c;
+  border: 1px solid #38594a;
 }
 
 .button--primary {
@@ -19,10 +44,6 @@
   background-color: white;
   border: 1px solid #5f5373;
   color: #5f5373;
-}
-
-.button:hover {
-  opacity: 0.5;
 }
 
 .border-bottom {
