@@ -36,6 +36,7 @@
   text-align: center;
   right: 5dvw;
   top: 100%;
+  z-index: 20;
   border-radius: 1rem;
   border: 1px solid #8878a5;
   color: #737373;

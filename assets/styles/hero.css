@@ -29,9 +29,43 @@
 
 .hero__image {
   margin-block: 1rem;
+  position: relative;
 }
 
-.hero__image img {
+.hero__bubble {
+  display: flex;
+  color: white;
+  position: absolute;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  background-color: #8878a5;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  border: 1px solid #5f5373;
+}
+
+.hero__image .hero__bubble:first-of-type {
+  left: 0;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.hero__image .hero__bubble:last-of-type {
+  right: 0;
+  top: 60%;
+  transform: translate(40%, -50%);
+}
+
+.hero__bubble span {
+  display: none;
+}
+
+.hero__bubble img {
+  width: clamp(2.5rem, 10vw, 3.5rem);
+}
+
+.hero__image > img {
   height: auto;
   width: clamp(18rem, 50vw, 25rem);
 }
@@ -43,6 +77,7 @@
     align-items: center;
     padding-block: 0;
   }
+
   .hero__description {
     text-align: left;
     margin-inline: 0;
@@ -50,19 +85,40 @@
     order: 1;
     padding-left: 10dvw;
   }
+
   .hero__description h1 {
     max-width: 15ch;
   }
 
   .hero__image {
     margin: 0 auto;
-    padding-right: 2rem;
+    padding-block: 2rem;
     order: 2;
   }
-  .hero__image img {
-    margin-top: 2rem;
-    content: url("../images/desktop-hero.png");
-    max-width: none;
-    width: clamp(25rem, 50vw, 45rem);
+
+  .hero__image > img {
+    max-width: 25rem;
+  }
+}
+
+@media (min-width: 90rem) {
+  .hero__bubble span {
+    display: block;
+  }
+
+  .hero__bubble {
+    gap: 1rem;
+  }
+
+  .hero__bubble img {
+    width: 1.5rem;
+  }
+
+  .hero__image .hero__bubble:first-of-type {
+    transform: translate(-60%, 0%);
+  }
+
+  .hero__image .hero__bubble:last-of-type {
+    transform: translate(70%, -50%);
   }
 }
