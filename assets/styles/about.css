@@ -47,5 +47,6 @@
   }
   .about__title {
     justify-content: start;
+    font-size: 1.5rem;
   }
 }

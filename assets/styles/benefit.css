@@ -22,7 +22,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
+  padding: 2rem 1.5rem;
   background-color: #f3f2f6;
   border-radius: 0.8rem;
   border: 1px solid #8878a5;
@@ -58,5 +58,8 @@
 @media (min-width: 65rem) {
   .benefit__list {
     flex-direction: row;
+  }
+  .benefit__title {
+    font-size: 1.5rem;
   }
 }
